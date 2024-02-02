@@ -24,4 +24,21 @@ let myObj = {
 const muFunction = function(){
     console.log("hello world from function");
 };
+muFunction();
 console.log(typeof muFunction);
+
+
+// ++++++++++++++++++++++ Memory Types ++++++++++++++++++++++++++
+//  Stack(in Stack memory there are using premitive data) => Copy of original data , Heap(in Heap memory there are using non-premitive data) => Orignal data
+// let myGithubName = "devshehzad";
+// let anotherName = myGithubName;
+// anotherName = "devshehzad249";  it will give the copy of orignal
+// console.log(anotherName);
+let userOne = {
+    email : 'devshehzad249@gmail.com',
+    userUpi : "sheh@upi"
+}
+userTwo = userOne
+userTwo.email = "userTwo@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
