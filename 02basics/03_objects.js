@@ -1,7 +1,9 @@
 // +++++++++ object ++++++++++++++
 // object literals 
+const mySymbol = Symbol("key1")
 const JsUser = {
     name : "shehzad",
+    [mySymbol] : "key1",
     'fullName': "shehzad shah",
     age : 28,
     location: "Pakistan",
@@ -12,4 +14,4 @@ const JsUser = {
 console.log(JsUser.name)
 console.log(JsUser['age'])
 console.log(JsUser.fullName)
-console.log(JsUser['fullName'])
+console.log(typeof JsUser[mySymbol])

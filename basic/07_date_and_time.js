@@ -1,10 +1,10 @@
 let myDate = new Date()
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toLocaleString());
-// console.log(myDate.toJSON());
-// console.log(myDate.toLocaleDateString());
-// console.log(myDate.toUTCString());
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleString());
+console.log(myDate.toJSON());
+console.log(myDate.toLocaleDateString());
+console.log(myDate.toUTCString());
 let myCreatedDate = new Date (2023, 0 ,23)
 // let myCreatedDate = new Date ("01-14-2024");
 // console.log(myCreatedDate.toLocaleString());

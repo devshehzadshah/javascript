@@ -29,25 +29,25 @@
 
 // const myn2 = myArr.splice(1,3);
 // console.log('orignal array ',myn1)
-// console.log("data in myn2 ", myn2);
-// var users = ['ted', 'tem', 'ton', 'sam', 'sor', 'sod']
-// console.log(users.slice(1,4));
+console.log("data in myn2 ", myn2);
+var users = ['ted', 'tem', 'ton', 'sam', 'sor', 'sod']
+console.log(users.slice(1,4));
 
-// users.slice(1,3, "hi");
-// console.log(new1);
+users.slice(1,3, "hi");
+console.log(new1);
 const myArray = [0,1,2,3,4,5]
-// console.log(myArray);
-// myArray.push(6);
-// myArray.pop();
-// myArray.push(7,8)
-// myArray.pop();
-// myArray.unshift(9);
-// myArray.shift();
-// console.log(myArray.includes(3))
-// console.log(myArray.indexOf(2))
-// const mynewArray = myArray.join()
-// console.log( typeof myArray)
-// console.log( typeof mynewArray);
+console.log(myArray);
+myArray.push(6);
+myArray.pop();
+myArray.push(7,8)
+myArray.pop();
+myArray.unshift(9);
+myArray.shift();
+console.log(myArray.includes(3))
+console.log(myArray.indexOf(2))
+const mynewArray = myArray.join()
+console.log( typeof myArray)
+console.log( typeof mynewArray);
 console.log("A ", myArray);
 const myn1 = myArray.slice(1,3)
 console.log(myn1);
