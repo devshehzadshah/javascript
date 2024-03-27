@@ -3,7 +3,7 @@
 const mySymbol = Symbol("key1")
 const JsUser = {
     name : "shehzad",
-    [mySymbol] : "key1",
+    [mySymbol] : 'key1',
     'fullName': "shehzad shah",
     age : 28,
     location: "Pakistan",
