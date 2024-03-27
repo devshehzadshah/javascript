@@ -48,3 +48,20 @@ console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
 console.log(tinderUser.hasOwnProperty('name2'))
+const course = {
+    coursename : 'javascript',
+    price : 999,
+    instructor : 'Hitesh'
+}
+// course.instructor
+const {coursename, price, instructor:tutor} = course
+console.log(price)
+console.log(coursename)
+console.log(tutor)
+
+// Api : the Api will be in json format : the key is alson in string but we dont write it in "" if we write it like "name" it will be fine
+{
+    "name": "jhon",
+    "class": 10,
+    "roll": 20.
+}
