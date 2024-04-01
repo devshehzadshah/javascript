@@ -3,7 +3,7 @@ const tinderUser = new Object()
 tinderUser.id = '002b'
 tinderUser.name = 'jhon'
 tinderUser.islogedIn = false
-// console.log(tinderUser)\
+console.log(tinderUser)\
 const regularUser = {
     email : 'devshehzad',
     fullName:{
@@ -13,7 +13,7 @@ const regularUser = {
         }
     }
 }
-// console.log(regularUser.fullName.userfullName.lastName)
+console.log(regularUser.fullName.userfullName.lastName)
 const obj1 = {
     1: 'a',
     2: 'b'
