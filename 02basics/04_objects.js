@@ -3,7 +3,7 @@ const tinderUser = new Object()
 tinderUser.id = '002b'
 tinderUser.name = 'jhon'
 tinderUser.islogedIn = false
-console.log(tinderUser)\
+console.log(tinderUser)
 const regularUser = {
     email : 'devshehzad',
     fullName:{
